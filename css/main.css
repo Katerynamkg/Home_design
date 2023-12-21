@@ -1,0 +1,464 @@
+@font-face {
+    font-family: Karla;
+    font-weight: 700;
+    src: url(../assets/fonts/Karla/static/Karla-Bold.ttf);
+}
+@font-face {
+    font-family: Varta;
+    font-weight: 700;
+    src: url(../assets/fonts/static/Varta-Regular.ttf);
+}
+@font-face {
+    font-family: Varta;
+    font-weight: 300;
+    src: url(../assets/fonts/static/Varta-Light.ttf);
+}
+@font-face {
+    font-family: Varta;
+    font-weight: 600;
+    src: url(../assets/fonts/static/Varta-SemiBold.ttf);
+}
+@font-face {
+    font-family: Varta;
+    font-weight: 700;
+    src: url(../assets/fonts/static/Varta-Bold.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    font-weight: 700;
+    src: url(../assets/fonts/Merriweather/Merriweather-Bold.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    font-weight: 400;
+    src: url(../assets/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    font-weight: 300;
+    src: url(../assets/fonts/Merriweather/Merriweather-Light.ttf);
+}
+*{
+    margin: 0;
+}
+body{
+
+}
+header{
+    background: url(../assets/img/Hero_Background.jpg) right top no-repeat;
+    background-size: 50%;
+    background-color: #F3EEE8;
+}
+section{
+    background-color: #F3EEE8;
+}
+.wraper{
+    max-width: 1140px;
+    margin: auto;
+    /* background: url(../assets/img/Hero\ Background.jpg) right top no-repeat;
+    background-size: 50%; */
+    
+}
+nav{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.nav_container{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+    margin: 65px 100px 114px 0;
+}
+.nav_container .logo{
+    font:700 34px/25px Merriweather;
+    letter-spacing: 2px;
+    color: #A06056;
+}
+.nav_container a{
+    text-decoration: none;
+    font:400 18px/25px Varta;
+    color: #706458;
+    padding:5px 0;
+}
+/* Container with text */
+.wraper_title{
+    max-width: 40%;
+    padding-bottom:313px;
+}
+.wraper_title span{
+    font:700 14px/20px Varta;
+    color: #A06056;
+    letter-spacing: 1px;
+}
+
+.wraper_title h1{
+    font:300 50px/70px Merriweather;
+    letter-spacing: -0.4px;
+    color: #A06056;
+    margin-top: 50px;
+}
+.wraper_title p{
+    font:300 22px/30.8px Varta;
+    letter-spacing: -0.4px;
+    color: rgba(112, 100, 88, 0.90);
+    margin: 31px 0 50px 0;
+}
+.wraper_title a{
+    border-radius:50%;
+    padding:19px;
+    text-align: center;
+    border: 2px solid #A06056;
+    
+}
+nav > a{
+    position: relative;
+    top: 55px;
+    left: 100px;
+}
+/*second block*/
+.assortment{
+    padding-bottom:191px;
+
+}
+.assortment h2{
+    font:300 55px/60px Merriweather;
+    color: #706458;
+    letter-spacing: -0.6px;
+    padding-top: 47px;
+}
+
+.assortment_goods{
+    display: flex;
+    margin-top: 51px;
+    max-width: 100%;
+}
+
+.assortment img{
+    max-width:22.5%;
+}
+
+.assortment_goods_text_first{
+    max-width:16%;
+    padding-right: 9px;
+}
+.assortment_goods_text_first span, .assortment_goods_text_second span, .assortment_goods_text_third span {
+    max-width:93%;
+    color: rgba(112, 100, 88, 0.90);
+    font:400 18px/25px Varta;
+}
+
+.assortment_goods_text_second span{
+    margin-left: 32px;
+}
+
+.assortment_goods_text_second{
+    max-width:28%;
+
+}
+.assortment_goods_text_third{
+    min-width:10%;
+
+}
+.assortment_goods_text_third span{
+    position: relative;
+    left:45px;
+}
+
+.assortment_goods_text_second p{
+    color: #A06056;
+    text-align: right;
+    font:400 55px/60px Merriweather;
+    letter-spacing: -0.6px;
+    position: relative;
+}
+.bedroom{
+    right:121px;
+    top:110px;
+}
+.living-room{
+    text-align: right;
+    left:388px;
+    top:32px;
+}
+/*third block*/
+.content_block{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+.content_title h2{
+    color: #706458;
+    font:300 55px/60px Merriweather;
+    letter-spacing: -0.6px;
+    max-width: 83%;
+    padding-top:23px;
+    padding-bottom:36px;
+}
+.content_title a{
+    display: flex;
+    text-decoration: none;
+    color: #A06056;
+    font:700 17px/25px Karla;
+    letter-spacing: 0.3px;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 48%;
+    margin-top:43px;
+    padding-left:5px;
+}
+.content div{
+    max-width: 48%;
+    margin-bottom:35px;
+
+}
+.content div h4{
+    color: #A06056;
+    font:600 25px/30px Varta;
+    letter-spacing: -0.2px;
+    margin-bottom:10px;
+}
+.content div p{
+    color: rgba(112, 100, 88, 0.90);
+    font:400 18px/25px Varta;
+}
+
+/*fourth block*/
+main section:nth-child(3){
+    background-color: white;
+}
+.trands{
+    display: flex;
+    justify-content: space-between;
+    margin-top:68px;
+    max-width: 100%;
+}
+
+.trands_header{
+    max-width: 45%;
+}
+.trands_header_form{
+    max-width : 60%;
+    float: left;
+}
+
+.trands_header h5{
+    color: #121212;
+    font: 300 35px/40px Merriweather;
+    letter-spacing: -0.3px;
+    margin-bottom:10px;
+    /*max-width: 50%;*/
+}
+.trands_header p{
+    color: rgba(112, 100, 88, 0.90);
+    font: 400 18px/25px Varta;
+    margin-bottom:10px;
+
+}
+.trands_header a{
+    display: flex;
+    align-items: center;
+    color: #A06056;
+    font: 700 17px/25px Karla;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    margin-bottom:66px;
+}
+form{
+    margin-top: 30px;
+    width: 100%;
+}
+form .email{
+    padding:15px 15px 10px 15px;
+    background-color: rgba(243, 238, 232, 0.30);
+    color: rgba(112, 100, 88, 0.90);
+    font:400 18px/25px Varta;
+    border-radius: 1px;
+    border:none;
+    outline:none;
+    width: 266px;
+}
+form input::placeholder{
+    color: rgba(112, 100, 88, 0.90);
+    font:400 18px/25px Varta;
+}
+.button_input{
+    border-radius: 1px;
+    background-color: #534B42;
+    color: #FFF;
+    text-align: center;
+    font:700 17px/25px Karla;
+    letter-spacing: 0.3px;
+    padding: 10px 31px;
+    margin-left: 16px;
+}
+/*PHOTO*/
+.trands_photo{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom:24px;
+}
+.trands_photo img{
+    max-width: 41.5%;
+    /*height: 100%;*/
+    margin-right: 30px;
+
+}
+.trands_photo img:last-child{
+    max-width:28.5%;
+    /*height: 100%;*/
+}
+/*inspiration*/
+.trands_inspiration{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+.trands_inspiration_p{
+    max-width: 49%;
+    margin-left: 105px;
+}
+.trands_inspiration h4{
+    font:300 45px/40px Merriweather;
+    color: #534B42;
+    letter-spacing: -0.3px;
+    max-width: 30%;
+}
+.trands_inspiration p{
+    color: #706458;
+    font:400 18px/25px Varta;
+    max-width: 64%;
+
+}
+.trands_inspiration .buttons_panel{
+    max-width: 40%;
+    margin:0px 70px 0 0;
+}
+.trands_inspiration .buttons{
+    margin-bottom:20px;
+    display: flex;
+
+}
+.buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    border:2px solid #A06056;
+    background-color: #ffffff;
+    padding: 10px 13px;
+    border-radius:50%;
+    /*text-align: center;*/
+    max-width: 100%;
+    margin: 0px 7px 0 0;
+}
+
+.buttons_panel>time{
+    color: rgba(112, 100, 88, 0.90);
+    font: 400 18px/25px Varta;
+    /*margin-left: 8px;*/
+    }
+
+/*FOOTER*/
+footer{
+    background-color: #F3EEE8;
+}
+.footer_main{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 70px;
+
+}
+.footer_nav{
+    display:flex;
+    justify-content:space-between;
+    max-width: 70%;
+
+}
+aside{
+    max-width: 21%;
+}
+.footer_nav>div{
+    min-width: 135px;
+}
+.footer_nav>div:nth-child(2){
+    margin: 0 24px 0 48px;
+
+}
+.footer_nav>div:nth-child(3){
+    margin: 0 48px 0 24px;
+
+}
+
+.footer_main .logo{
+    font:700 34px/25px Merriweather;
+    letter-spacing: 2px;
+    color: #A06056;
+}
+.footer_main h4{
+    color: #534B42;
+    font: 600 25px/30px Varta;
+    letter-spacing: -0.2px;
+    margin-bottom: 21px;
+}
+.footer_nav ul{
+    padding-left: 0;
+}
+.footer_nav li{
+    list-style-type: none;
+    color: #706458;
+    font: 400 18px/25px Varta;
+    margin-top: 12px;
+}
+aside p{
+    color: #706458;
+    font: 400 16px/25px Varta;
+    margin-top: 12px;
+}
+aside a{
+    display: flex;
+    align-items: center;
+    color: #A06056;
+    font: 700 17px/25px Karla;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    margin-top: 22px;
+}
+
+.footer_contacts_social{
+    display:flex;
+    max-width: 18%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 48px 0 20px 0;
+}
+.footer_contacts_legal{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer_contacts_term{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 0 48px 0;
+    max-width:40%;
+}
+.footer_contacts_term a{
+    display: flex;
+    align-items: center;
+    color: rgba(112, 100, 88, 0.70);
+    font: 400 18px/25px Varta;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+.footer_contacts_legal p{
+    color: rgba(112, 100, 88, 0.70);
+    font: 400 18px/25px Varta;
+}
